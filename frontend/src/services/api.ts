@@ -1,6 +1,7 @@
 import { Holding, MarketData, Signal, StockAnalysis, ChatMessage } from '../types';
 
-const API_BASE = "https://etgenbackend.onrender.com/api";
+const API_BASE =
+  import.meta.env.VITE_API_URL || "https://etgenbackend.onrender.com/api";
 
 // ─── API Functions — all data from real backend ───
 
